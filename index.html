@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, inital-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Test</title>
+  </head>
+  <body>
+    <!-- 메뉴 -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">WebDemo</div>
+        <ul class="nav">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/contact.html">contact</a></li>
+          <li><a herf="/team" Team></a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- 메인 섹션 -->
+    <section class="main">
+      <div class="container">
+        <h1>web prg.</h1>
+        <h3>hello world!</h3>
+
+        <h2><a href="https://theori.io/">theori!</a></h2>
+        <p>
+          <a href="https://theori.io/">theori is gooooood!</a>
+        </p>
+
+        <p>현재시각 : <span id="time"></span></p>
+        <hr />
+        <p>
+          배경색 바꾸기 :
+          <button onclick="pink()">pink</button>
+          <button onclick="black()">black</button>
+          <button onclick="green()">green</button>
+          <button onclick="red()">red</button>
+        </p>
+        <p>
+          lean :
+          <button onmouseover="showhtml()" onmouseout="hide()">html</button>
+          <button onmouseover="showcss()" onmouseout="hide()">css</button>
+          <button onmouseover="showjs()" onmouseout="hide()">js</button>
+        </p>
+        <hr />
+        <br />
+
+        <div>
+          <img id="fig" height="200px" />
+          <p id="disc"></p>
+        </div>
+      </div>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
